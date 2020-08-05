@@ -23,9 +23,10 @@ if (process.env.NODE_ENV === "production") {
   });
 }
 
+/*
 app.get("/", (req, res) => {
   res.send(req.body);
-});
+});*/
 
 app.post("/api/mail", (req, res) => {
   let data = req.body;
