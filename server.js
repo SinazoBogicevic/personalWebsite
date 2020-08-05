@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 //app.use("/", routes);
 
-app.get("/", (req, res) => {
+app.get("/api/get", (req, res) => {
   res.send(req.body);
 });
 
