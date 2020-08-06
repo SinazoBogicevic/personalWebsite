@@ -19,6 +19,8 @@ app.get("/", (req, res) => {
   res.send(req.body);
 });
 
+console.log("before if");
+
 if (process.env.NODE_ENV === "production") {
   console.log("before static");
   app.use("/static", express.static(path.join(__dirname, "client/build")));
