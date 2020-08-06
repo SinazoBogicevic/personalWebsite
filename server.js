@@ -14,16 +14,11 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 //app.use("/", routes);
-app.use("/static", express.static(path.join(__dirname, "client/build")));
-
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "client", "build", "index.html"));
-});
 
 app.get("/", (req, res) => {
-  res.send(req.body);
+  res.send("Hello World");
 });
-/**
+
 if (process.env.NODE_ENV === "production") {
   app.use("/static", express.static(path.join(__dirname, "client/build")));
 
@@ -31,7 +26,7 @@ if (process.env.NODE_ENV === "production") {
     res.sendFile(path.join(__dirname, "client", "build", "index.html"));
   });
 }
-*/
+
 app.post("/api/mail", (req, res) => {
   let data = req.body;
   res.send(data);
