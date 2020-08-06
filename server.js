@@ -16,20 +16,15 @@ app.use(cors());
 //app.use("/", routes);
 
 app.get("/", (req, res) => {
-  res.send(req.body);
+  res.sendFile(path.join(__dirname, "client", "build", "index.html"));
 });
 
-console.log("before if");
-
 if (process.env.NODE_ENV === "production") {
-  console.log("before static");
   app.use("/static", express.static(path.join(__dirname, "client/build")));
 
   app.get("*", (req, res) => {
     res.sendFile(path.join(__dirname, "client", "build", "index.html"));
   });
-
-  console.log("after get");
 }
 
 app.post("/api/mail", (req, res) => {
