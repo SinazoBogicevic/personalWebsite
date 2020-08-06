@@ -15,9 +15,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 //app.use("/", routes);
 
-app.get("/api", (req, res) => {
-  res.send("Hello World");
-});
+app.use("/");
 
 if (process.env.NODE_ENV === "production") {
   app.use(express.static(path.join(__dirname, "client/build")));
