@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3001;
 const cors = require("cors");
 const path = require("path");
 
-const routes = require("./routes");
+const routes = require("./routes/api");
 
 app = express();
 app.use(bodyParser.json());
