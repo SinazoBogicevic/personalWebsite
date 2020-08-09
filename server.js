@@ -23,7 +23,7 @@ if (process.env.NODE_ENV === "production") {
     res.sendFile(path.join(__dirname, "client", "build", "index.html"));
   });
   */
-  app.get("/test", (req, resp) => {
+  app.get("*", (req, res) => {
     resp.send("Its in production");
   });
 }
