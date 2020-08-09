@@ -29,7 +29,7 @@ export default function About() {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://drive.google.com/u/0/uc?id=1wfIjlRIvA1X1HOj8nhhQHuG67Rmmt_dh&export=download"
+            href="https://drive.google.com/u/0/uc?id=1v3fe1M65NkBj9sddOt6TwkrH_sPN1KXY&export=download"
             download="Sinazo_Bogicevic_CV"
             style={{ textDecoration: "none" }}
           >
