@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2915c734.chunk.css",
+    "main.js": "/static/js/main.f703fc59.chunk.js",
+    "main.js.map": "/static/js/main.f703fc59.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c6e37e88.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c6e37e88.js.map",
+    "static/js/2.d64c4b93.chunk.js": "/static/js/2.d64c4b93.chunk.js",
+    "static/js/2.d64c4b93.chunk.js.map": "/static/js/2.d64c4b93.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ce4fb393051363a53a1b11f40cabd4e6.js": "/precache-manifest.ce4fb393051363a53a1b11f40cabd4e6.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.2915c734.chunk.css.map": "/static/css/main.2915c734.chunk.css.map",
+    "static/js/2.d64c4b93.chunk.js.LICENSE.txt": "/static/js/2.d64c4b93.chunk.js.LICENSE.txt",
+    "static/media/SinazoB.jpg": "/static/media/SinazoB.a065afe4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c6e37e88.js",
+    "static/js/2.d64c4b93.chunk.js",
+    "static/css/main.2915c734.chunk.css",
+    "static/js/main.f703fc59.chunk.js"
+  ]
+}

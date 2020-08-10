@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import SinazoB from "../SinazoB";
+import SinazoB from "../SinazoB.jpg";
 
 export default function About() {
   return (
